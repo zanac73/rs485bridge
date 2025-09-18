@@ -15,9 +15,9 @@
 
 #define RS485_BAUD_RATE                 BAUD_RATE
 #define RS485_DI_TX_PIN                 2
-#define RS485_DE_PIN                    3
+#define RS485_RO_RX_PIN                 3
+#define RS485_DE_PIN                    4
 #define RS485_RE_PIN                    4
-#define RS485_RO_RX_PIN                 5
 
 SoftwareSerial rs485Serial(RS485_RO_RX_PIN, RS485_DI_TX_PIN);
 
